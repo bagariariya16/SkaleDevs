@@ -1,0 +1,119 @@
+.slide{
+    height: 600px;
+}
+.foot{
+    background-image: url("./footer/cultrl-bottom-bg.jpg");
+    height: 550px;
+    width: 100%;
+    z-index: -1;
+}
+.about{
+    background-color:transparent !important;
+}
+.header{
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.5fr 1fr 1fr 0.25fr;
+    background-color: #FF8551;
+    background-color: #03C988;
+    background-image: linear-gradient(to bottom right, #FF8551 ,white, #03c988);
+
+}
+
+.header i{
+    left: 90%;
+    top: 50%;
+}
+.ashok{
+    margin-left: 0px;
+}
+.search{
+    grid-area: 1/4/2/6;
+
+}
+
+h1{
+    grid-area:1/2/2/4;
+    font-family: 'Croissant One', cursive;
+    font-size: xx-larger !important;
+    text-align: center;
+    padding-right: 6px;
+}
+.btn-outline-primary{
+    border-color: darkblue;
+}
+.main{
+    height: 300px;
+    width:400px;
+    transition: opacity;
+}
+.card-title{
+    text-align: center;
+    color: #533E85 !important;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.card-text{
+    color: #533E85 !important;
+    font-family: monospace;
+}
+.card{
+    background-color: #F4EEEE !important;
+}
+h2{
+    color: #D35D6E !important;
+    text-align: center;
+    padding-top: 4%;
+    background-color: #E7D9EA;
+    font-family:cursive;
+    font-weight: bolder !important;
+    font-size: 40px !important;
+    
+}
+.main:hover{
+    opacity:0.7;
+}
+.foottext{
+    width: 70%;
+    position: relative;
+    left:13%;
+    top:10%;
+    height:300px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: light;
+}
+h3{
+    font-weight: bolder;
+}
+@media (max-width:800px) {
+.foottext{
+    top:5%;
+    position:none;
+    line-height: 107%;
+    padding-top:0px;
+    font-size:100%;
+
+}
+}
+.footcontact{
+    padding-top:200px;
+    color: white;
+    
+}
+.row{
+    background-color: #E7D9EA;
+}
+.chat-bot{
+    position: relative;
+    bottom: 4px;
+    right: 2px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
