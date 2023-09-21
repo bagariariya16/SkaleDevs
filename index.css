@@ -105,9 +105,9 @@ h3{
 }
 .chat-bot{
     position: relative;
-    bottom: 4px;
-    right: 2px;
-    background-color: #4CAF50; /* Green */
+    bottom: 60px;
+    left: 90%;
+    background-color: #112011; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
