@@ -1,12 +1,6 @@
 .slide{
     height: 600px;
 }
-.foot{
-    background-image: url("./footer/cultrl-bottom-bg.jpg");
-    height: 550px;
-    width: 100%;
-    z-index: -1;
-}
 .about{
     background-color:transparent !important;
 }
@@ -72,42 +66,14 @@ h2{
 .main:hover{
     opacity:0.7;
 }
-.foottext{
-    width: 70%;
-    position: relative;
-    left:13%;
-    top:10%;
-    height:300px;
-    font-family:'Times New Roman', Times, serif;
-    font-size: larger;
-    font-weight: light;
-}
-h3{
-    font-weight: bolder;
-}
-@media (max-width:800px) {
-.foottext{
-    top:5%;
-    position:none;
-    line-height: 107%;
-    padding-top:0px;
-    font-size:100%;
-
-}
-}
-.footcontact{
-    padding-top:200px;
-    color: white;
-    
-}
 .row{
     background-color: #E7D9EA;
 }
 .chat-bot{
     position: relative;
-    bottom: 60px;
-    left: 90%;
-    background-color: #112011; /* Green */
+    bottom: 4px;
+    right: 2px;
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -116,4 +82,53 @@ h3{
     display: inline-block;
     font-size: 16px;
 
+}
+
+#gallery{
+    display: flex-wrap;
+    gap:0px !important;
+}
+.gimg{
+    height: 150px;
+    width: 150px;
+
+}
+.gal{
+    text-align: center;
+}
+.con{
+    font-weight: bold;
+}
+.nav-link{
+    transition: color,font-weight !important;
+}
+.nav-link:hover{
+    color:darkorange !important;
+    font-weight: bolder;
+}
+
+.row-foot{
+    background-color: #EEE3CB !important;
+}
+.about{
+    color:#12486B !important;
+    font-weight: bold;
+
+}
+.par{
+    margin: 0;
+}
+
+.back-to-top{
+    border: #12486B 2px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+
+
+}
+.foot{
+    padding-top: 3rem;
+    padding-bottom: 0 !important;
 }
