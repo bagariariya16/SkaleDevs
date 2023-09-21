@@ -71,16 +71,16 @@ h2{
 }
 .chat-bot{
     position: relative;
-    bottom: 4px;
-    right: 2px;
-    background-color: #4CAF50; /* Green */
+    bottom: 8px;
+    left: 82%;
+    background-color: #dccaa2; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 19px;
 
 }
 
@@ -121,6 +121,8 @@ h2{
 
 .back-to-top{
     border: #12486B 2px solid;
+    
+    left: 95%;
     width: 30px;
     height: 30px;
     border-radius: 50%;
