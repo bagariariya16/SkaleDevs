@@ -1,0 +1,24 @@
+ .block-text-resize{ font-size:14px; color:#fff;}
+ .block-text-resize a{font-size: 14px;
+    color: #fff;
+    line-height: 35px;
+    border-left: 1px solid #616161;
+    padding: 9px;}
+ .block-text-resize a:hover{ font-size:14px; color:#ccc;}
+ 
+ .lang-dropdown-select-element{
+	word-wrap: normal;
+    width: 100%;
+    border: 1px solid #262829 !important;
+    padding: 10px 10px;
+    width: 100%;
+    background: #262829;
+    color: #999;
+    outline: none;
+    color: #fff!important;
+    font-size: 14px !important;
+    height: 32px !important;
+    padding: 0px 10px !important;
+    line-height: 32px;
+ }
+ .region-skip-content a{color:#fff;font-size: 13px;}.region-skip-content a:hover{color:#ccc;}

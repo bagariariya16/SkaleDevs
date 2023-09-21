@@ -1,0 +1,3 @@
+@media print{
+ body { margin:0;}#topbar{ display:none;}footer{display:none;}#header{ display:none;}.btn-group{ display:none;}.section-footer{ display:none;}.footerflowbg{ display:none;}.sponsors{ display:none;}.breadcrumb{ display:none;} #block-breadcrumbs{display:none;} #block-fotter{display:none;} 
+}
